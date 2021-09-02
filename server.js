@@ -1,0 +1,12 @@
+var superheroes = require('superheroes');
+
+var mySuperheroName = superheroes.random();
+console.log(mySuperheroName);
+
+var supervillains = require('supervillains');
+
+var mySupervillainName = supervillains.random();
+console.log(mySupervillainName);
+
+var allVillains = supervillains.all;
+console.log(allVillains)
